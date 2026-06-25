@@ -25,33 +25,44 @@ https://www.inmotionhosting.com/
 ## Project Structure
 
 ```plaintext
-src
-└── test
-    ├── Base
-    │   ├── BasePage.java
-    │   ├── BaseTest.java
-    │   └── DriverFactory.java
-    │
-    ├── Pages
-    │   ├── HomePage.java
-    │   ├── DomainSearchPage.java
-    │   ├── CartPage.java
-    │   ├── WebHostingPage.java
-    │   └── EndToEnd.java
-    │
-    ├── Tests
-    │   ├── HomePageTest.java
-    │   ├── DomainSearchTest.java
-    │   ├── CartTest.java
-    │   ├── HostingPlanTest.java
-    │   └── EndToEndTest.java
-    │
-    ├── Utils
-    │   ├── ScreenshotUtil.java
-    │   └── ConfigReader.java
-    │
-    └── listeners
-        └── TestListener.java
+InMotionHosting
+│
+├── src
+│   ├── main
+│   │   └── java
+│   │       ├── Base
+│   │       │   ├── BasePage.java
+│   │       │   └── DriverFactory.java
+│   │       │
+│   │       ├── Pages
+│   │       │   ├── HomePage.java
+│   │       │   ├── DomainSearchPage.java
+│   │       │   ├── CartPage.java
+│   │       │   ├── WebHostingPage.java
+│   │       │   └── EndToEnd.java
+│   │       │
+│   │       └── Utils
+│   │           ├── ConfigReader.java
+│   │           └── ScreenshotUtil.java
+│   │
+│   └── test
+│       └── java
+│           ├── Base
+│           │   └── BaseTest.java
+│           │
+│           ├── Listeners
+│           │   └── TestListener.java
+│           │
+│           └── Tests
+│               ├── HomePageTest.java
+│               ├── DomainSearchTest.java
+│               ├── CartTest.java
+│               ├── HostingPlanTest.java
+│               └── EndToEndTest.java
+│
+├── .gitignore
+├── pom.xml
+└── README.md
 ```
 
 ---
